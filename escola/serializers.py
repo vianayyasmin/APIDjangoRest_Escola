@@ -25,6 +25,7 @@ class MatriculaEstudanteSerializer(serializers.ModelSerializer):
 
     def get_periodo(self, obj):
         return obj.periodo
+    
 
         
 class MatriculaCursoSerializer(serializers.ModelSerializer):
